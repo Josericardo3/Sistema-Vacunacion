@@ -51,42 +51,47 @@ p{
     outline: none;
 }
 
-#portada{
-    background-image: url('img/vacuna1.jpg');
+#portada {
+    background-image: url(img/vacuna1.jpg);
     background-size: cover;
     padding-top: 90px;
     min-height: 600px;
     color: white;
 }
+
 #portada p{
    color: #ffffff; 
 }
+
 .content-center{
     max-height: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
 }
+
 .beneficiados-container{
     position: relative;
     overflow: hidden;
     margin: 10px 0;
 }
+
 .beneficiados-container img{
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
 }
+
 .beneficiados-container:hover img{
     -moz-transform: scale(1.2);
     -webkit-transform:scale(1.2);
     transform:scale(1.2)
 }
+
 .beneficiados-details{
     bottom: 25px;
     left: 25px;
     text-align: center;
 }
-
 
 
 

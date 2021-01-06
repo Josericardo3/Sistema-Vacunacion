@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    padding: 120px 170px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 80px;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 20px;
+    color: white;
+}
+
+.topmargin-xs{
+    margin-top:15px;
+}
+.topmargin-sm{
+    margin-top:30px;
+}
+.topmargin-lg{
+    margin-top:60px;
+}
+
+.navbar{
+    background-color:  #50c2ff;
+    box-shadow: 0 2px 4px o rgba(0, 0, 0, 0);
+    min-height: 80px;
+}
+.nav-link{
+   color:white;
+}
+.nav-link:hover{
+   color:white; 
+}
+.navbar-toogler{
+    font-size: 40px;
+}
+.navbar-toogler:focus{
+    outline: none;
+}

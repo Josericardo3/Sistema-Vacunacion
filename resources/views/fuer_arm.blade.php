@@ -14,8 +14,6 @@
       <fieldset>
         <input placeholder="CÓDIGO" type="text" tabindex="1" required autofocus>
       </fieldset>
-     
-      
       <fieldset>
         <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Ingresar</button>
       </fieldset>

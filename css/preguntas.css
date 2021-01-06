@@ -10,7 +10,7 @@ h1{
     line-height: 80px;
 }
 h2{
-    font-size: 48px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -45,4 +45,10 @@ h3{
 }
 .navbar-toogler:focus{
     outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .derecha{
+        display:none !important;
+    }
 }

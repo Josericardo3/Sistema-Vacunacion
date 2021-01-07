@@ -24,6 +24,7 @@
             <div class="row">
                 <div class="col-md-2 col-2"></div>
                 <div class="col-md-8 col-8">
+<<<<<<< HEAD
                     <h5 class="my-3">Hospital:</h5>
                     <h6 id="hospital">{{ $consultaUsuario2->nombre }}</h6>
                     <p>____________________________________________________________________</p>
@@ -49,6 +50,27 @@
                     
                     <h6 class="text-center">Fecha de cita:</h6>
                     <h6 class="text-center">{{ $consultaUsuario2->fechaCita }}</h6>
+=======
+                        <h5 class="my-3">Hospital:</h5>
+                        <h6 id="hospital">{{ $nombre }}</h6>
+                        <p>____________________________________________________________________</p>
+
+                        <h5 class="my-3">Departamento:</h5>
+                        <h6 id="hospital">{{ $departamento }}</h6>
+                        <p>____________________________________________________________________</p>
+
+                        <h5 class="my-3">Distrito:</h5>
+                        <h6 id="hospital">{{ $distrito }}</h6>
+                        <p>____________________________________________________________________</p>
+                        
+                        <h5 class="my-4">Doctor:</h5>
+                        <h6 id="doctor">{{ $doctor }}</h6>
+                        <!--{{-- <h6 id="doctor">{{ $variable }}</h6> --}}-->
+                        <p>____________________________________________________________________</p>
+                        
+                        <h6 class="text-center">Fecha de cita:</h6>
+                        <h6 class="text-center">{{ $fecha }}</h6>
+>>>>>>> a961b20f1547f8df63f2f9c1e0df4914305a9182
                         
                         <div class="text-center mt-4">
                             <a href="{{ url("/") }}" class="btn btn-success">Aceptar</a>

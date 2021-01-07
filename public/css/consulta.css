@@ -70,7 +70,7 @@ body {
     font-size: 17px;
   }
   
-  .login-box input[type="submit"] {
+  .login-box input[type="submit"] .login-box input[type="button"]{
     margin: 10px;
     border: none;
     outline: none;
@@ -83,7 +83,7 @@ body {
     border-radius: 50px;
   }
   
-  .login-box input[type="submit"]:hover {
+  .login-box input[type="submit"]:hover .login-box input[type="button"]:hover {
     cursor: pointer;
     background: #00A6FF;
     color: #FFF;

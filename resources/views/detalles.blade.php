@@ -21,19 +21,24 @@
                 <div class="col-md-2 col-2"></div>
                 <div class="col-md-8 col-8">
                         <h5 class="my-3">Hospital:</h5>
-                        <h6 id="hospital">Hospital Nacional Arzobispo Loayza</h6>
+                        <h6 id="hospital">{{ $nombre }}</h6>
                         <p>____________________________________________________________________</p>
 
+                        <h5 class="my-3">Departamento:</h5>
+                        <h6 id="hospital">{{ $departamento }}</h6>
+                        <p>____________________________________________________________________</p>
+
+                        <h5 class="my-3">Distrito:</h5>
+                        <h6 id="hospital">{{ $distrito }}</h6>
+                        <p>____________________________________________________________________</p>
+                        
                         <h5 class="my-4">Doctor:</h5>
-                        <h6 id="doctor">Dr. Franklin Palomino Montoya</h6>
-                        {{-- <h6 id="doctor">{{ $variable }}</h6> --}}
+                        <h6 id="doctor">{{ $doctor }}</h6>
+                        <!--{{-- <h6 id="doctor">{{ $variable }}</h6> --}}-->
                         <p>____________________________________________________________________</p>
+                        
                         <h6 class="text-center">Fecha de cita:</h6>
-                        <h6 class="text-center">23/01/2021</h6>
-
-                        <div class="text-center my-3">
-                            <input type="date" id="fecha" name="fecha" required="required">
-                        </div>
+                        <h6 class="text-center">{{ $fecha }}</h6>
                         
                         <div class="text-center">
                             <button type="" class="btn btn-primary rounded px-4">Aceptar</button>

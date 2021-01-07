@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">         
 
-    <title>Hello, world!</title>
+    <title>Sistema de vacunacion</title>
   </head>
   <body>
       <!--NAV-->
@@ -46,7 +46,7 @@
             <h1 class="text-dark">Sistema de vacunación</h1>
             <p class="text-dark">Sistema de vacunación covid-19 para el mes de enero 2021, comprueba tu cita registrandote en nuestro sistema.</p>
             <br>
-            <a class="btn btn-primary"  href="{{ url("/inicioR") }}" role="button">Iniciar</a>
+            <a class="btn btn-primary p-2"  href="{{ url("/inicioR") }}" role="button">Consulte su cita</a>
             </div>
         </div>
     </section>

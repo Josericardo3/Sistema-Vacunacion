@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-4"></div>
       <div class="col-4">
-        <form id="contact" action="" method="post">
+        <form id="contact" action="{{ route('personal.medico') }}" method="post">
           <h3>Área de Salud</h3>
           <br>
           <fieldset>
@@ -28,6 +28,36 @@
       </div>
       <div class="col-4"></div>
     </div>
+   
+    
+  </div>
+</body>
+</html> --}}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Area de Salud</title>
+    <link href="{{ asset('css/iniciosesion2.css') }}" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <h1>Area de salud</h1>
+      <div class="object"></div>
+     
+      <form method="POST" action="{{ route('personal.medico') }}">    
+        {{ csrf_field() }}
+            @csrf 
+    <div class="container">  
+      <br>
+      <!-- N° de dni -->
+      <label for="number">Número de DNI</label>
+      <input type="text" name="dni" placeholder="Ingrese su número de DNI">
+  
+      <input type="submit" value="Consultar">
+    </form>
    
     
   </div>

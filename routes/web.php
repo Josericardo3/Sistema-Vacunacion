@@ -21,6 +21,9 @@ Route::get('/registro', function () {
     return view('registro');
 });
 
+Route::get('/noRegistrado', function () {
+    return view('noRegistrado');
+});
 
 Route::get('/login', [RegistroUsuario::class,'LoginUsuario'])->name('login');
 
@@ -32,33 +35,17 @@ Route::get('/preguntas', function () {
     return view('preguntas');
 });
 
-Route::post('/', [RegistroUsuarioController::class,'registroUsuarioR'])->name('registro.usuario');
+Route::post('/Menu', [RegistroUsuarioController::class,'registroUsuarioR'])->name('registro.usuario');
 
-// Route::post('/', function (Request $request) {
-//     $request->validate([
-//       'nombre' => 'required|min:8',
-//       'dni' => 'required',
-//     ]);
+Route::post('/a', [RegistroUsuarioController::class,'registroUsuarioRR'])->name('registro.usuario2');
 
-//     $nombre = $request->nombre;
-//         $condicion = $request->condicion;
-//         $selectDepartamento = $request->selectDepartamento;
-//         $selectProvincia = $request->selectProvincia;
-//         $dni = $request->dni;
-//         $fechaNac = $request->fechaNac;
+Route::post('/', [RegistroUsuarioController::class,'mayorEdad'])->name('mayor.edad');
 
-//         // dd($request->nombre);
+Route::post('/k', [RegistroUsuarioController::class,'personalMedico'])->name('personal.medico');
 
-//         return view('inicio_reg');
+Route::post('/j', [RegistroUsuarioController::class,'fuerzasArmadas'])->name('fuerzas.armadas');
 
 
-//     // El resto del código va aquí
-// })->name('registro.usuario');
-
-
-// Route::get('/inicioR', function () {
-//     return view('inicio_reg');
-// });
 
 Route::get('/usuariosMayores', function () {
     return view('mayor');
@@ -80,4 +67,3 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('welcome');
 });
-

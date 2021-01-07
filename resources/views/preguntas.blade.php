@@ -10,7 +10,8 @@
     <!--CSS-->
     <link href="{{ asset('css/preguntas.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">         
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">  
+    <link rel="icon" type="image/ico" href="{{ asset('img/ambulancia.ico') }}" />       
 
     <title>Hello, world!</title>
   </head>

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Mayores de 60 años</title>
     <link href="{{ asset('css/consulta.css') }}" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="{{ asset('img/ambulancia.ico') }}" />
   </head>
   <body>
   <button class="btn btn-info m-3"><a id="enlace" href="{{ url("/inicioR") }}">Atrás</a></button>

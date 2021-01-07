@@ -11,6 +11,7 @@
 <!--CSS-->
 <link href="{{ asset('css/consulta.css') }}" rel="stylesheet">
 <link href="{{ asset('css/detalles.css') }}" rel="stylesheet">
+<link rel="icon" type="image/ico" href="{{ asset('img/ambulancia.ico') }}" />
 </head>
 <body>
   <button class="btn btn-info m-3"><a id="enlace" href="{{ url("/") }}">Atrás</a></button>

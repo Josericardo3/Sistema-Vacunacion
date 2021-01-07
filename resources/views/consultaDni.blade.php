@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Consulta - Dni</title>
     <link href="{{ asset('css/consulta.css') }}" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="{{ asset('img/ambulancia.ico') }}" />
   </head>
   <body>
 

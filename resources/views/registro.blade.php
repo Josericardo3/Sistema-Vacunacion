@@ -5,6 +5,7 @@
     <title>Registro</title>
     <link href="{{ asset('css/registro.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" type="image/ico" href="{{ asset('img/ambulancia.ico') }}" />
   </head>
   <body>
       <button class="btn btn-info m-3"><a id="enlace" href="{{ url("/") }}">Atrás</a></button>

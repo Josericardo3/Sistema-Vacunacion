@@ -51,6 +51,11 @@ Route::get('/usuariosMayores', function () {
     return view('mayor');
 });
 
+Route::get('/categoria', function () {
+    return view('inicio_reg');
+});
+
+
 Route::get('/usuariosFuerzas', function () {
     return view('fuer_arm');
 });

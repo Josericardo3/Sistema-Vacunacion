@@ -154,21 +154,29 @@ class RegistroUsuarioController extends Controller
     public function mayorEdad(Request $request){
 
 
+        // dd($request->dni);
+
         $dniU = (int) $request->dni;
 
         $consultaUsuario = Usuario::where('dni','=',$dniU)->first();
 
         if($consultaUsuario){
-
+            
             $registrado = 1;
             $idUsuario = $consultaUsuario->id;
 
             $consultaUsuario2 = Hospital::where('id_usuario','=',$idUsuario)->first();
 
             if($consultaUsuario2){
+
+                // dd("existeok");
+                return view('detalles',compact('registrado','consultaUsuario2'));
                 $cita = 1;
             }
-            return view('detalles',compact('registrado','consultaUsuario2'));
+
+            // dd($consultaUsuario2);
+
+            
 
         }
         else{
@@ -182,9 +190,6 @@ class RegistroUsuarioController extends Controller
             
         }
 
-        // if($registrado==0){
-        //     dd("no esta registrado");
-        // }
 
         
         

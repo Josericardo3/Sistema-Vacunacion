@@ -92,9 +92,13 @@
           </div>
         </div>
             <label class="text-center" for="Date">Fecha de nacimiento</label>
-            <input type="date" name="fechaNac" placeholder="" required>
+            <input type="date" name="fechaNac" id="boton" placeholder="" required>
             <!-- Fecha de nacimiento -->
-        <input type="submit" value="Registrarse">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4"><input class="btn btn-primary" type="submit" value="Registrarse"></div>
+          <div class="col-4"></div>
+        </div>
         <br>
       </form>
     </div>

@@ -3,11 +3,11 @@ body {
     padding: 0;
     background-size: cover;
     font-family: sans-serif;
-    height: 80vh;
+    height: 96vh;
   }
   .object {
-    width: 461px;
-    height: 957px;
+    width: 448.5px;
+    height: 858px;
     background: #50c2ff;
     top: 50%;
     left: 50%;
@@ -17,7 +17,7 @@ body {
     padding: 70px 30px;
   }
   .login-box {
-    width: 600px;
+    width: 599px;
     height: 540px;
     color: #47525E;
     top: 50%;

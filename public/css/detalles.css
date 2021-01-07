@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .derecha{
+        display:none !important;
+    }
+}
+
+#enlace{
+    text-decoration: none;
+    color:white;
+}
